@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--点击背景-->
+    <item android:state_pressed="true">
+        <shape >
+            <!--设置实心颜色-->
+            <solid android:color="#218868"></solid>
+
+            <!--设置圆角-->
+            <corners android:radius="10dp"></corners>
+        </shape>
+    </item>
+
+    <!--默认背景-->
+    <item>
+        <shape>
+            <solid android:color="#d2aa"></solid>
+            <corners android:radius="20dp"></corners>
+        </shape>
+    </item>
+</selector>

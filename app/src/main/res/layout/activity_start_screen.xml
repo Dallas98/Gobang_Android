@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/startbeijing"
+    tools:context="com.dallas.gobang.StartScreenActivity">
+
+    <Button
+        android:id="@+id/startgamebymanandmachine"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/startscreenbutton"
+        android:textSize="20sp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorEye1"
+        android:text="人机对战"/>
+
+    <Button
+        android:id="@+id/startgamebymanandman"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/startscreenbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/startgamebymanandmachine"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorEye1"
+        android:text="双人对战"/>
+
+    <Button
+        android:id="@+id/helpbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/startscreenbutton"
+        android:layout_below="@id/startgamebymanandman"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorEye1"
+        android:text="帮助"/>
+
+    <Button
+        android:id="@+id/aboutbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/startscreenbutton"
+        android:layout_below="@id/helpbtn"
+        android:textColor="@color/colorEye1"
+        android:text="关于"/>
+
+    <Button
+        android:id="@+id/exitbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/startscreenbutton"
+        android:layout_below="@id/aboutbtn"
+        android:textColor="@color/colorEye1"
+        android:text="退出"/>
+
+    <!--广告条-->
+    <!--<LinearLayout-->
+        <!--android:id="@+id/ll_banner"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="2dp"-->
+        <!--android:gravity="center_horizontal">-->
+    <!--</LinearLayout>-->
+
+</RelativeLayout>
