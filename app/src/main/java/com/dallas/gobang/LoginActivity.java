@@ -29,23 +29,23 @@ public class LoginActivity extends AppCompatActivity {
                 try {
                     Thread.sleep(2000);   //开始界面上全屏显示   2秒
                     //判断是否是第一次进入app
-//                    Intent intent = new Intent(LoginActivity.this,
-//                            GuideActivity.class);
-//                    startActivity(intent);
-//                    finish();
-                    if(isRunStart(LoginActivity.this)){
-                        //进入卡片页面
-                        Intent intent = new Intent(LoginActivity.this,
-                                GuideActivity.class);
-                        startActivity(intent);
-                        finish();
-                    }else{
-                        //直接进入主界面
-                        Intent intent1 = new Intent(LoginActivity.this,
-                                StartScreenActivity.class);
-                        startActivity(intent1);
-                        finish();
-                    }
+                    Intent intent = new Intent(LoginActivity.this,
+                            GuideActivity.class);
+                    startActivity(intent);
+                    finish();
+//                    if(isRunStart(LoginActivity.this)){
+//                        //进入卡片页面
+//                        Intent intent = new Intent(LoginActivity.this,
+//                                GuideActivity.class);
+//                        startActivity(intent);
+//                        finish();
+//                    }else{
+//                        //直接进入主界面
+//                        Intent intent1 = new Intent(LoginActivity.this,
+//                                StartScreenActivity.class);
+//                        startActivity(intent1);
+//                        finish();
+//                    }
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

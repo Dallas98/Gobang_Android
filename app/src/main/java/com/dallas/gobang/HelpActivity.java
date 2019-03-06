@@ -16,9 +16,9 @@ import java.util.Map;
 
 public class HelpActivity extends AppCompatActivity {
 
-    private Button btn_back = null;
-    ToggleButton toggle;
-    static private MediaPlayer mediaPlayer;
+    static Button btn_back = null;
+    static ToggleButton toggle = null;
+    static  MediaPlayer mediaPlayer;
     static boolean play = false;
 
 

@@ -1,16 +1,11 @@
 package com.dallas.gobang;
 
 import android.content.Intent;
-import android.media.AudioManager;
-import android.media.MediaPlayer;
-import android.media.SoundPool;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import java.util.HashMap;
-import java.util.Map;
 
 
 public class StartScreenActivity extends AppCompatActivity {
@@ -37,17 +32,6 @@ public class StartScreenActivity extends AppCompatActivity {
         helpbtn.setOnClickListener(new HelpListener());
         aboutbtn.setOnClickListener(new AboutListener());
         exitbtn.setOnClickListener(new ExitListener());
-
-//        player.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-//            @Override
-//            public void onCompletion(MediaPlayer arg0) {
-//                player.start();
-//                player.setLooping(true);
-//            }
-//        });
-
-
-
     }
 
 
