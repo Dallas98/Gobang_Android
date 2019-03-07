@@ -1,9 +1,6 @@
 package com.dallas.gobang;
 
-/**
- * Created by XFHY on 2016/11/5.
- * 某种棋形分数
- */
+
 
 public class PatternScore {
     /**

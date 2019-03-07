@@ -1,10 +1,6 @@
 package com.dallas.gobang;
 
 
-/**
-
- * 点类
- */
 
 public class Point {
     private int x;   //横坐标

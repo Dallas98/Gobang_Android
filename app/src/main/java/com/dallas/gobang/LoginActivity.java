@@ -7,9 +7,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 
-/**
- * 这是主界面
- */
+
 public class LoginActivity extends AppCompatActivity {
 
     @Override

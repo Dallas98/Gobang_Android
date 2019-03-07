@@ -146,19 +146,16 @@ public class GuideActivity extends AppCompatActivity {
 
         @Override
         public void onPageScrollStateChanged(int arg0) {
-            // TODO Auto-generated method stub
 
         }
 
         @Override
         public void onPageScrolled(int arg0, float arg1, int arg2) {
-            // TODO Auto-generated method stub
 
         }
 
         @Override
         public void onPageSelected(int arg0) {
-            // TODO Auto-generated method stub
             switch (arg0) {
                 case 0:
                     pager1.setImageDrawable(getResources().getDrawable(R.drawable.page_now));
